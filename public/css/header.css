@@ -1,0 +1,101 @@
+.header-top{
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 40px 0;
+    background-image:  linear-gradient(black, transparent, black), url("/images/fundo-netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    color: darkred;
+}
+.svg-icon{
+    width: 150px;
+    color: red;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-menu ul li{
+    padding: 0 15px;
+    list-style: none;
+    font-family: Arial;
+}
+
+.nav-menu ul li button{
+    display: flex;
+    background: transparent;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+}
+.nav-menu ul li button span{
+    margin: 0 3px;
+}
+
+.btn-login{
+    border: none;
+    background: #c91010;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.header-section{
+    text-align: center;
+    margin: 50px 0;
+    padding: 100px 0;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-section-hero h1{
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0 1px;
+}
+.header-section-hero h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+.header-section-hero p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-section-form form{
+    display: flex;
+    justify-content: center;
+}
+.header-section-form form input{
+    border: none;
+    padding: 20px 15px;
+    width: 30%;
+}
+.btn-email{
+    background: #c91010;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 15px 20px;
+    transition: .3s;
+}
+
+.btn-email:hover{
+    background: #f31414;
+}

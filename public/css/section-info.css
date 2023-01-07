@@ -1,0 +1,62 @@
+.info-hero{
+    margin-top: 10px;
+    padding: 50px 0;
+    background: #000;
+    width: 100%;
+}
+.flex-info{
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.flex-info-text{
+    padding: 15px 25px;
+    width: 50%;
+}
+.flex-info-text h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.flex-info-text p{
+    font-size: 30px;
+    margin-top: 0;
+}
+.flex-info-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.card-down{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    position: absolute;
+    width: 55%;
+    z-index: 2;
+
+    bottom: 25px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.card-donw-image{
+    width: 15%;
+}
+.card-down-text{
+    font-size: 11px;
+}
+.card-down-text h1{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.card-down-text p{
+    color: blue;
+    font-size: 13px;
+    margin-top: 0;
+}

@@ -1,0 +1,51 @@
+.footer{
+    background: #000;
+    color: #8c8b8b;
+    margin-top: 10px;
+    padding: 60px 0;
+    width: 100%;
+}
+.footer-duvidas{
+    margin: 0 auto;
+    width: 70%;
+}
+.footer-links{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 70%;
+}
+.footer-links-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links-col-item{
+    padding: 7px 2px;
+    cursor: pointer;
+}
+.footer-lang{
+    margin: 0 auto;
+    width: 70%;
+}
+.footer-lang button{
+    display: flex;
+    background: transparent;
+    color: #8c8b8b;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #8c8b8b;
+    padding: 10px 10px;
+    width: 150px;
+}
+.footer-tel{
+    color: #8c8b8b;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+.footer-tel:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
