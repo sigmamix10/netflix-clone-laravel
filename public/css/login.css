@@ -19,5 +19,21 @@
 .box-login{
     background: rgba(0, 0, 0, 0.8);
     margin: 0 auto;
-    width: 40%;
+    padding: 30px 30px;
+    width: 30%;
+}
+
+.login-title{
+    font-size: 20px;
+    color: #fff;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-login-label{
+    background: #656565;
+    color: #fff;
+    margin-top: 20px;
 }
